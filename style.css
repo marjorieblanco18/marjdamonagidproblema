@@ -1,0 +1,100 @@
+.navbar{
+    background-color: rgb(62, 190, 131);
+    height: 10vh;
+}
+
+.navbar .nav-link{
+    color:rgb(8, 8, 8);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.navbar .nav-link{
+    color:rgb(41, 39, 36);
+}
+.btn{
+    padding: 12px 30px;
+    font-weight: 900;
+    font-size: 18px;
+}
+.btn .click{
+
+}
+
+.btn-click{
+    background-color: rgb(158, 94, 94);
+    border: 2px solid #db5656;
+    border-radius: 60px;
+    transition: all ease-in 0.5s;
+    border-radius: 100%;
+}
+
+.btn-click:hover{
+    color: #222121;
+    border: 2px solid #190d88;
+
+}
+.pic{
+    border-radius: 100%;
+    box-shadow: #FFF;
+    width: 90px;
+}
+.banner{
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.8603816526610644) 0%, rgba(96,88,203,0.379)53%), url('syluss.avif');
+    height: 90vh;
+    background-size: cover;
+}
+h1{
+    font-size: 45px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.banner p{
+    color: #FFF;
+    font-size: 20px;
+}
+.section{
+    padding: 100px 0;
+}
+#about h2, t#about h3{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#about h3{
+    color: rgb(65, 223, 3);
+}
+#about img {
+    border: 10px solid #776161;
+    box-shadow: 0 0 15px 0 rgb(0,0,0,0,0 2.3) ;
+    border-radius: 25px;
+}
+.card-img-top{
+    width: 35%;
+}
+.card{
+    padding:25px 20px; 
+    transition: all ease-in 0.5s;
+    border: 4px solid #FFF;
+    box-shadow: 0 0 15px 0 rgb(0,0,0,0,0 2.3) ;
+    border-radius: 25ps;
+    margin-top:20px;
+
+}
+.card:hover{
+    background-color: #190d88;
+    box-shadow: #f3f1e7;
+}
+.card:hover .card-title,
+.card:hover .card-text{
+    color: #f3f1e7;
+}
+#services h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 55px;
+    color:blueviolet;
+    margin-bottom: 30px;
+}
+#services{
+    background-color: rgb(12, 73, 73);
+}
