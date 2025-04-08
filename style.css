@@ -16,9 +16,6 @@
     font-weight: 900;
     font-size: 18px;
 }
-.btn .click{
-
-}
 
 .btn-click{
     background-color: rgb(158, 94, 94);
@@ -144,7 +141,7 @@ section {
     margin-left: 0;
     background-color: rgb(178, 235, 23);
 }
-,.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed){
     background-color: #190d88;
     color: #222121;
 }
@@ -167,4 +164,17 @@ footer {
     color:  rgb(244, 149, 15) ;
     
 }
+@media screen and (max-width: 768px) {
 
+    h1{
+        font-size: 45px !important;
+    }
+    section{
+    padding: 60px 20 px;
+    }
+    #about img{
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    }
+}
